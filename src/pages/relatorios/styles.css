@@ -1,0 +1,98 @@
+.painel-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+}
+
+.cabecalho-relatorios h2 {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.conteudo-relatorios {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-relatorio {
+  width: 250px;
+  background-color: #f4f5f8;
+  border-radius: 12px;
+  padding: 15px;
+}
+
+.menu-relatorio ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-relatorio li {
+  padding: 12px 15px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  transition: background-color 0.2s, color 0.2s, font-weight 0.2s;
+}
+
+.menu-relatorio li:hover,
+.menu-relatorio li.ativo {
+  background-color: #e6f0ff;
+  color: #4a90e2;
+  font-weight: bold;
+}
+
+.area-relatorio {
+  flex: 1;
+  background-color: #f4f5f8;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.filtros-relatorio {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filtros-relatorio label {
+  font-weight: bold;
+  color: #666;
+}
+
+.filtros-relatorio select {
+  padding: 8px 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.tabela-relatorio {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabela-relatorio th,
+.tabela-relatorio td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.tabela-relatorio thead tr {
+  background-color: #e0e0e0;
+  color: #666;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.tabela-relatorio tbody tr:hover {
+  background-color: #f9fafc;
+}

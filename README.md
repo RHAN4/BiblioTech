@@ -1,20 +1,70 @@
-# BiblioTech
-O BiblioTech é uma aplicação web de front-end desenvolvida com React para gerenciar as operações de uma biblioteca escolar. O objetivo do projeto foi criar uma interface de usuário (UI) intuitiva e moderna, que facilita o gerenciamento de livros, usuários, empréstimos, multas e relatórios.
+# Getting Started with Create React App
 
-### Funcionalidades Principais
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- **Dashboard**: Visão geral com métricas importantes, como o total de livros, usuários ativos e empréstimos em atraso, com gráficos de barras para mostrar tendências.
-- **Gerenciamento de Livros**: Painel completo para adicionar, editar e visualizar informações detalhadas de cada livro, com filtros de busca e status de disponibilidade.
-- **Gerenciamento de Usuários**: Cartões de usuário com informações de contato e multas pendentes, facilitando a busca e a organização dos alunos e professores.
-- **Controle de Empréstimos**: Tabela para registrar, visualizar e acompanhar empréstimos em andamento e o histórico de devoluções.
-- **Controle de Multas**: Interface para visualizar multas pendentes e um formulário para registrar novas penalidades.
-- **Relatórios**: Menu lateral para gerar relatórios dinâmicos sobre os livros mais emprestados e usuários mais ativos, ajudando na tomada de decisões.
+## Available Scripts
 
----
+In the project directory, you can run:
 
-### Tecnologias Utilizadas
+### `npm start`
 
-- **React**: Biblioteca JavaScript para a construção da interface do usuário.
-- **React Router DOM**: Para gerenciar a navegação entre as páginas (rotas).
-- **CSS**: Estilização modular para cada componente, garantindo um código limpo e organizado.
-- **Font Awesome**: Biblioteca de ícones para enriquecer a interface.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

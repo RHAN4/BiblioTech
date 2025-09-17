@@ -1,0 +1,157 @@
+.painel-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+}
+
+.cabecalho-usuarios {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.titulo-painel h2 {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+}
+
+.controles-superiores {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-busca,
+.select-filtro {
+  padding: 8px 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.botao-adicionar {
+  padding: 8px 16px;
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.botao-adicionar:hover {
+  background-color: #3a7bd5;
+  transform: translateY(-2px);
+}
+
+.total-usuarios {
+  width: 100%;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #666;
+}
+
+.lista-usuarios {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.cartao-usuario {
+  background-color: #f4f5f8;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  position: relative;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.cartao-usuario:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cartao-cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cartao-cabecalho h3 {
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+}
+
+.icones-acao i {
+  color: #999;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 14px;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.icones-acao i:hover {
+  color: #4a90e2;
+  transform: scale(1.1);
+}
+
+.cartao-info {
+  margin: 0 0 5px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.cartao-detalhes {
+  margin-top: 15px;
+  padding-top: 15px;
+}
+
+.cartao-detalhes p {
+  margin: 0 0 5px 0;
+  font-size: 14px;
+}
+
+.cartao-detalhes span {
+  font-weight: bold;
+  color: #333;
+}
+
+.cartao-multa {
+  background-color: #fff8e1;
+  border: 1px solid #ffeb3b;
+  color: #ff9800;
+  padding: 8px;
+  border-radius: 8px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.cartao-multa .valor-multa {
+  font-weight: bold;
+}
+
+.status {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.status.ativo {
+  background-color: #e8f5e9;
+  color: #388e3c;
+}
