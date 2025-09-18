@@ -73,7 +73,7 @@ const Dashboard = () => {
           </div>
         </div>
         <div className="grafico-card">
-          <h4>Categorias Mais populares</h4>
+          <h4>Categorias mais populares</h4>
           <div className="grafico-barras-h">
             <div className="barra-item-h">
               <span className="label-h">Literatura brasileira</span>
